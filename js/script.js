@@ -1,7 +1,22 @@
 // console.log('ciao js')  
 // backtick = alt+96 --- {   `    } 
 
-const mioNome = 'Erik'
-const mioCognome = 'Vella'
-const mioColore = 'Verde'
+// 1 salvare in 3 variabili nome cognome e colore preferito
+// 2 aggiungere 23 al nome ottenuto
+// 3 stamparlo in pagina
+
+
+// 1
+const nome = prompt('Digita il tuo nome')
+const cognome = prompt('Digita il tuo cognome')
+const colore = prompt('Digita il tuo colore preferito')
+
+
+// 2 
+const message = nome + cognome + colore + 23
+
+
+// 3
+
+document.getElementById('output').innerHTML = message;
 
